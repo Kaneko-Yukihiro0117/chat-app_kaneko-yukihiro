@@ -1,0 +1,15 @@
+<div class="side-bar-header">
+  <div class="header-name">
+    <%= link_to current_user.name, edit_user_path(current_user) %><!----ユーザー編集ページに遷移できるよう---->
+  </div>
+  <div class="create-room">
+    <a href="#">チャットを作る</a>
+  </div>
+</div>
+
+<div class="rooms">
+ <ul class="room">
+  <li class="room-name"><a href="#">部屋１</a></li>
+  <li class="room-name"><a href="#">部屋２</a></li>
+ </ul>
+</div>
